@@ -9,7 +9,7 @@ count = 1
 seq_int = start_int
 print("Here is the Collatz sequence starting at : ",start_str)
 
-print('{0:5d}, '.format(seq_int), end='')
+print('{0:7d}, '.format(seq_int), end='')
 while seq_int > 1:
 
     # collatz calculation
@@ -26,10 +26,10 @@ while seq_int > 1:
     # avoid trailing comma when we hit 1
     if seq_int == 1:
 
-        print('{0:5d} '.format(seq_int))
+        print('{0:7d} '.format(seq_int))
     else:
 
-        print('{0:5d}, '.format(seq_int), end='')
+        print('{0:7d}, '.format(seq_int), end='')
 
     count += 1
     if count % 10 == 0:

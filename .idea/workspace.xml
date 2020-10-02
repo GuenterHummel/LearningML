@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="Moved to GitHub">
+      <change beforePath="$PROJECT_DIR$/.idea/hailstorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hailstorm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guessing_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hailstorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/hailstorm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,25 +20,34 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="hailstorm" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="49038ee2-8815-413a-a5d5-5d0ad484396b" />
+  <component name="ProjectId" id="1gxEoQjPJZLGiUFgnUXPq4hE9Rr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Anaconda3/envs/hailstorm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.spam">
+  <component name="RunManager" selected="Python.guessing_game">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,6 +67,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="guessing_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hailstorm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessing_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="hailstorm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hailstorm" />
@@ -132,18 +166,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.guessing_game" />
       <item itemvalue="Python.hailstorm" />
       <item itemvalue="Python.script1" />
       <item itemvalue="Python.spam" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spam" />
+        <item itemvalue="Python.guessing_game" />
         <item itemvalue="Python.hailstorm" />
+        <item itemvalue="Python.spam" />
         <item itemvalue="Python.script1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,6 +201,14 @@
       <workItem from="1554202444583" duration="102000" />
       <workItem from="1554373226161" duration="501000" />
       <workItem from="1554380787524" duration="315000" />
+      <workItem from="1599048020803" duration="1685000" />
+      <workItem from="1599144223977" duration="79000" />
+      <workItem from="1599217566932" duration="1000" />
+      <workItem from="1601305535349" duration="188000" />
+      <workItem from="1601377923442" duration="200000" />
+      <workItem from="1601393203013" duration="121000" />
+      <workItem from="1601464849970" duration="3015000" />
+      <workItem from="1601638008701" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to GitHub">
       <created>1554380991233</created>
@@ -183,7 +228,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -206,19 +251,45 @@
       <screen x="-1920" y="149" width="1920" height="1050" />
     </state>
     <state x="-1920" y="149" key="DiffContextDialog/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598860039019" />
+    <state x="1262" y="366" key="FileChooserDialogImpl" timestamp="1601305628823">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1262" y="366" key="FileChooserDialogImpl/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601305628823" />
+    <state width="1458" height="238" key="GridCell.Tab.0.bottom" timestamp="1601643955057">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="238" key="GridCell.Tab.0.bottom/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955057" />
+    <state width="1458" height="238" key="GridCell.Tab.0.center" timestamp="1601643955057">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="238" key="GridCell.Tab.0.center/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955057" />
+    <state width="1458" height="238" key="GridCell.Tab.0.left" timestamp="1601643955056">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="238" key="GridCell.Tab.0.left/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955056" />
+    <state width="1458" height="238" key="GridCell.Tab.0.right" timestamp="1601643955057">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="238" key="GridCell.Tab.0.right/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955057" />
+    <state x="1418" y="303" key="SettingsEditor" timestamp="1601393321325">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1418" y="303" key="SettingsEditor/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601393321325" />
     <state x="-1408" y="383" key="Vcs.Push.Dialog.v2" timestamp="1598860360265">
       <screen x="-1920" y="149" width="1920" height="1050" />
     </state>
     <state x="-1408" y="383" key="Vcs.Push.Dialog.v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598860360265" />
-    <state x="-1183" y="564" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598859902263">
-      <screen x="-1920" y="149" width="1920" height="1050" />
+    <state x="983" y="557" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599048032950">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="-1183" y="564" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598859902263" />
+    <state x="983" y="557" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1599048032950" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hailstorm$hailstorm.coverage" NAME="hailstorm Coverage Results" MODIFIED="1596715143157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hailstorm$hailstorm.coverage" NAME="hailstorm Coverage Results" MODIFIED="1601639679165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$script1.coverage" NAME="script1 Coverage Results" MODIFIED="1596715042314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$spam.coverage" NAME="spam Coverage Results" MODIFIED="1598859983810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hailstorm$guessing_game.coverage" NAME="guessing_game Coverage Results" MODIFIED="1601643955050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>
