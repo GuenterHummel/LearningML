@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="Moved to GitHub">
-      <change beforePath="$PROJECT_DIR$/.idea/hailstorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hailstorm.iml" afterDir="false" />
+    <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="Small Updates">
+      <change afterPath="$PROJECT_DIR$/setjava.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailstorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/hailstorm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/setjava.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="JupyterTrust" id="49038ee2-8815-413a-a5d5-5d0ad484396b" />
   <component name="ProjectId" id="1gxEoQjPJZLGiUFgnUXPq4hE9Rr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Anaconda3/envs/hailstorm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,7 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.guessing_game">
+  <component name="RunManager" selected="Python.setjava">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,6 +136,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="setjava" type="PythonConfigurationType" factoryName="Python">
+      <module name="hailstorm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\gh\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setjava.py" />
+      <option name="PARAMETERS" value="&quot;C:\Program Files\Java\openjdk-11&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="spam" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hailstorm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +190,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.setjava" />
       <item itemvalue="Python.guessing_game" />
       <item itemvalue="Python.hailstorm" />
       <item itemvalue="Python.script1" />
@@ -208,7 +233,11 @@
       <workItem from="1601377923442" duration="200000" />
       <workItem from="1601393203013" duration="121000" />
       <workItem from="1601464849970" duration="3015000" />
-      <workItem from="1601638008701" duration="1488000" />
+      <workItem from="1601638008701" duration="1583000" />
+      <workItem from="1601902400747" duration="15000" />
+      <workItem from="1601976437362" duration="2600000" />
+      <workItem from="1601979046720" duration="452000" />
+      <workItem from="1601979505750" duration="5982000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to GitHub">
       <created>1554380991233</created>
@@ -224,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598860047318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Small Updates">
+      <created>1601643992248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601643992248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,56 +276,103 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved to GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved to GitHub" />
+    <MESSAGE value="Small Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small Updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1373" y="218" key="CommitChangelistDialog2" timestamp="1598860046890">
-      <screen x="-1920" y="149" width="1920" height="1050" />
+    <state x="1468" y="459" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601985517261">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1468" y="459" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601985517261" />
+    <state x="516" y="688" key="#xdebugger.XInspectDialog" timestamp="1601978749445">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="516" y="688" key="#xdebugger.XInspectDialog/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601978749445" />
+    <state x="729" y="93" key="CommitChangelistDialog2" timestamp="1601643991778">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="-1373" y="218" key="CommitChangelistDialog2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598860046890" />
+    <state x="729" y="93" key="CommitChangelistDialog2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643991778" />
+    <state width="621" height="466" key="DebuggerActiveHint" timestamp="1601982042185">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="621" height="466" key="DebuggerActiveHint/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601982042185" />
     <state x="-1920" y="149" key="DiffContextDialog" timestamp="1598860039019">
       <screen x="-1920" y="149" width="1920" height="1050" />
     </state>
     <state x="-1920" y="149" key="DiffContextDialog/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598860039019" />
-    <state x="1262" y="366" key="FileChooserDialogImpl" timestamp="1601305628823">
+    <state x="1262" y="366" key="FileChooserDialogImpl" timestamp="1601979385527">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1262" y="366" key="FileChooserDialogImpl/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601305628823" />
-    <state width="1458" height="238" key="GridCell.Tab.0.bottom" timestamp="1601643955057">
+    <state x="1262" y="366" key="FileChooserDialogImpl/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601979385527" />
+    <state width="1458" height="238" key="GridCell.Tab.0.bottom" timestamp="1601986294373">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1458" height="238" key="GridCell.Tab.0.bottom/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955057" />
-    <state width="1458" height="238" key="GridCell.Tab.0.center" timestamp="1601643955057">
+    <state width="1458" height="238" key="GridCell.Tab.0.bottom/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294373" />
+    <state width="1458" height="238" key="GridCell.Tab.0.center" timestamp="1601986294373">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1458" height="238" key="GridCell.Tab.0.center/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955057" />
-    <state width="1458" height="238" key="GridCell.Tab.0.left" timestamp="1601643955056">
+    <state width="1458" height="238" key="GridCell.Tab.0.center/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294373" />
+    <state width="1458" height="238" key="GridCell.Tab.0.left" timestamp="1601986294373">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1458" height="238" key="GridCell.Tab.0.left/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955056" />
-    <state width="1458" height="238" key="GridCell.Tab.0.right" timestamp="1601643955057">
+    <state width="1458" height="238" key="GridCell.Tab.0.left/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294373" />
+    <state width="1458" height="238" key="GridCell.Tab.0.right" timestamp="1601986294373">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1458" height="238" key="GridCell.Tab.0.right/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601643955057" />
+    <state width="1458" height="238" key="GridCell.Tab.0.right/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294373" />
+    <state width="1458" height="294" key="GridCell.Tab.1.bottom" timestamp="1601986294370">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="294" key="GridCell.Tab.1.bottom/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294370" />
+    <state width="1458" height="294" key="GridCell.Tab.1.center" timestamp="1601986294370">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="294" key="GridCell.Tab.1.center/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294370" />
+    <state width="1458" height="294" key="GridCell.Tab.1.left" timestamp="1601986294370">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="294" key="GridCell.Tab.1.left/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294370" />
+    <state width="1458" height="294" key="GridCell.Tab.1.right" timestamp="1601986294370">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="294" key="GridCell.Tab.1.right/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601986294370" />
     <state x="1418" y="303" key="SettingsEditor" timestamp="1601393321325">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1418" y="303" key="SettingsEditor/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601393321325" />
-    <state x="-1408" y="383" key="Vcs.Push.Dialog.v2" timestamp="1598860360265">
-      <screen x="-1920" y="149" width="1920" height="1050" />
+    <state x="683" y="314" key="Vcs.Push.Dialog.v2" timestamp="1601644025601">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="-1408" y="383" key="Vcs.Push.Dialog.v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598860360265" />
+    <state x="683" y="314" key="Vcs.Push.Dialog.v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601644025601" />
+    <state x="1159" y="581" key="cloudConfig.PluginsDialog" timestamp="1601979037670">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1159" y="581" key="cloudConfig.PluginsDialog/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1601979037670" />
     <state x="983" y="557" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599048032950">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="-1183" y="564" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@-1920.149.1920.1050" timestamp="1598859902263" />
     <state x="983" y="557" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.149.1920.1050/2560.0.2560.1410/0.0.2560.1410@0.0.2560.1410" timestamp="1599048032950" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setjava.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hailstorm$hailstorm.coverage" NAME="hailstorm Coverage Results" MODIFIED="1601639679165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$script1.coverage" NAME="script1 Coverage Results" MODIFIED="1596715042314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hailstorm$setjava.coverage" NAME="setjava Coverage Results" MODIFIED="1601985554222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hailstorm$guessing_game.coverage" NAME="guessing_game Coverage Results" MODIFIED="1601643966946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$spam.coverage" NAME="spam Coverage Results" MODIFIED="1598859983810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hailstorm$guessing_game.coverage" NAME="guessing_game Coverage Results" MODIFIED="1601643955050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>
