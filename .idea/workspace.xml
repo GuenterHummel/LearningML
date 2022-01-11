@@ -234,12 +234,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.guessing_game" />
       <item itemvalue="Python.hailstorm" />
       <item itemvalue="Python.numpytest" />
       <item itemvalue="Python.hello" />
       <item itemvalue="Python tests.pytest in hello.py" />
       <item itemvalue="Python.spam" />
-      <item itemvalue="Python.guessing_game" />
     </list>
     <recent_temporary>
       <list>
