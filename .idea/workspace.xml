@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="Moved to GitHub">
-      <change afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+    <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="improved guessing game">
+      <change afterPath="$PROJECT_DIR$/my_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,13 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.guessing_game">
+  <component name="RunManager" selected="Python.my_sum">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +104,7 @@
       <method />
     </configuration>
     <configuration name="guessing_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HailStorm" />
+      <module name="hailstorm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -120,7 +126,7 @@
       <method v="2" />
     </configuration>
     <configuration name="hailstorm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HailStorm" />
+      <module name="hailstorm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -141,8 +147,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HailStorm" />
+    <configuration name="my_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hailstorm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -154,29 +160,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
-      <option name="PARAMETERS" value="-h" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="numpytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HailStorm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numpytest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +170,29 @@
       <method v="2" />
     </configuration>
     <configuration name="spam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HailStorm" />
+      <module name="hailstorm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hailstorm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -198,7 +204,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,18 +242,18 @@
     <list>
       <item itemvalue="Python.guessing_game" />
       <item itemvalue="Python.hailstorm" />
-      <item itemvalue="Python.numpytest" />
-      <item itemvalue="Python.hello" />
-      <item itemvalue="Python tests.pytest in hello.py" />
       <item itemvalue="Python.spam" />
+      <item itemvalue="Python.my_sum" />
+      <item itemvalue="Python tests.pytest in hello.py" />
+      <item itemvalue="Python.window" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_sum" />
+        <item itemvalue="Python.window" />
         <item itemvalue="Python.guessing_game" />
         <item itemvalue="Python.spam" />
         <item itemvalue="Python.hailstorm" />
-        <item itemvalue="Python.numpytest" />
-        <item itemvalue="Python.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +291,8 @@
       <workItem from="1613326287641" duration="143000" />
       <workItem from="1630450725057" duration="1435000" />
       <workItem from="1639076847634" duration="303000" />
-      <workItem from="1641934097228" duration="2458000" />
+      <workItem from="1641934097228" duration="5435000" />
+      <workItem from="1643058561559" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to GitHub">
       <created>1554380991233</created>
@@ -329,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630451017370</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="improved guessing game">
+      <created>1641938523685</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641938523685</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +371,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <MESSAGE value="Moved to GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved to GitHub" />
+    <MESSAGE value="improved guessing game" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved guessing game" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hailstorm$spam.coverage" NAME="spam Coverage Results" MODIFIED="1598859983810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -366,9 +381,11 @@
     <SUITE FILE_PATH="coverage/HailStorm$spam.coverage" NAME="spam Coverage Results" MODIFIED="1641934190458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$numpytest.coverage" NAME="numpytest Coverage Results" MODIFIED="1630451250222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$guessing_game.coverage" NAME="guessing_game Coverage Results" MODIFIED="1601327238485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HailStorm$window.coverage" NAME="window Coverage Results" MODIFIED="1643060352118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$hello.coverage" NAME="hello Coverage Results" MODIFIED="1630451747571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HailStorm$hello.coverage" NAME="hello Coverage Results" MODIFIED="1639077002169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HailStorm$numpytest.coverage" NAME="numpytest Coverage Results" MODIFIED="1639077021777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HailStorm$my_sum.coverage" NAME="my_sum Coverage Results" MODIFIED="1641941266045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$window.coverage" NAME="window Coverage Results" MODIFIED="1630451276439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hailstorm$script1.coverage" NAME="script1 Coverage Results" MODIFIED="1596715042314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HailStorm$hailstorm.coverage" NAME="hailstorm Coverage Results" MODIFIED="1641934171343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
