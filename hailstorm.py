@@ -7,7 +7,7 @@ start_int = int(start_str)
 
 count = 1
 seq_int = start_int
-print("Here is the Collatz sequence starting at : ",start_str)
+print("Here is the Collatz sequence starting at : ", start_str)
 
 print('{0:7d}, '.format(seq_int), end='')
 while seq_int > 1:
@@ -38,7 +38,7 @@ while seq_int > 1:
 
 else:
 
-    print(count,"elements in sequence starting at",start_int)
+    print(count, "elements in sequence starting at", start_int)
 
     
 print('The end')
