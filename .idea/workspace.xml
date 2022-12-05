@@ -22,7 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="Added crc32 processing and formatting example" />
+    <list default="true" id="461f3b08-1348-421f-9bf3-a4f43c6f4cb9" name="Default" comment="Added crc32 processing and formatting example">
+      <change afterPath="$PROJECT_DIR$/data/output-07.11.2022_PF99409999.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/output-30.06.2022_PF99409999.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sythetic_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sythetic_data_contact.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +91,7 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projekte/GH/python/HailStorm/data-out",
+    "last_opened_file_path": "D:/Projekte/GH/python/HailStorm/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,6 +101,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projekte\GH\python\HailStorm\data" />
       <recent name="D:\Projekte\GH\python\HailStorm\data-out" />
       <recent name="D:\Projekte\GH\python\HailStorm\hailstorm" />
       <recent name="D:\Projekte\GH\python\HailStorm\test\in" />
@@ -374,7 +381,9 @@
       <workItem from="1649848916068" duration="19000" />
       <workItem from="1660305892424" duration="912000" />
       <workItem from="1667991581818" duration="4450000" />
-      <workItem from="1669908859482" duration="340000" />
+      <workItem from="1669908859482" duration="497000" />
+      <workItem from="1670242041968" duration="24000" />
+      <workItem from="1670255485960" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to GitHub">
       <created>1554380991233</created>
@@ -481,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669909004236</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added crc32 processing and formatting example">
+      <created>1669909207600</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669909207600</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
