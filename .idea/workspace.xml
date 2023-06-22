@@ -319,11 +319,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.compare_iso_date" />
         <item itemvalue="Python.simpsons" />
         <item itemvalue="Python.relu_vec" />
         <item itemvalue="Python.monthly_parse" />
         <item itemvalue="Python.monthly" />
-        <item itemvalue="Python.compare_iso_date" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +410,7 @@
       <workItem from="1684766181562" duration="1307000" />
       <workItem from="1687425565518" duration="575000" />
       <workItem from="1687426174360" duration="56000" />
-      <workItem from="1687426247513" duration="649000" />
+      <workItem from="1687426247513" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="Moved to GitHub">
       <created>1554380991233</created>
@@ -573,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684766429186</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated workspace">
+      <created>1687428181918</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687428181918</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

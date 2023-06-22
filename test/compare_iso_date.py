@@ -37,11 +37,11 @@ testdate_3 = 0
 testdate_4 = '2023-03-31T22:41:26.444+03:00'
 testdate_5 = '2023-03-31T22:41:26.444+02:00'
 
-testdate_1_obj = parse_db_datetime(testdate_1)
-testdate_2_obj = parse_db_datetime(testdate_2)
-testdate_3_obj = parse_db_datetime(testdate_3)
-testdate_4_obj = parse_db_datetime(testdate_4)
-testdate_5_obj = parse_db_datetime(testdate_5)
+testdate_1_obj = conv_db_datetime_str_to_datetime_obj(testdate_1)
+testdate_2_obj = conv_db_datetime_str_to_datetime_obj(testdate_2)
+testdate_3_obj = conv_db_datetime_str_to_datetime_obj(testdate_3)
+testdate_4_obj = conv_db_datetime_str_to_datetime_obj(testdate_4)
+testdate_5_obj = conv_db_datetime_str_to_datetime_obj(testdate_5)
 
 print ("testdate_1 < testdate_2:  " + str(testdate_1 < testdate_2))
 print ("testdate_1_obj < testdate_2_obj:  " + str(testdate_1_obj < testdate_2_obj))
