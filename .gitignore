@@ -140,3 +140,5 @@ dmypy.json
 cython_debug/
 
 /setjava.bat
+/.idea/workspace.xml
+/.idea/workspace.xml
